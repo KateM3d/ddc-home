@@ -1,0 +1,54 @@
+.reasons-container{
+    height: 100vh;
+}
+
+.reasons-header{
+margin-top: 100px;
+font-size: 48px;
+margin-bottom: 10px;
+font-family: "Montserrat", sans-serif;
+text-transform: uppercase;
+color: grey;
+}
+
+.reasons-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  
+    .reasons-left {
+      flex: 1;
+      padding: 20px;
+  
+      ul {
+        list-style-type: disc; 
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+  
+        li {
+            list-style: none;
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-family: "Montserrat", sans-serif;
+            color: grey;
+            margin-bottom: 10px; 
+text-align: left;
+        }
+      }
+    }
+  
+    .reasons-right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        max-width: 350px;
+        height: auto; 
+      }
+    }
+  }

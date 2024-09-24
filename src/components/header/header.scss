@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+  
+    .logo img {
+      max-width: 150px;
+      border-radius: 50%;
+      filter: brightness(1.5) saturate(0.5) contrast(0.8);
+    }
+  
+    .nav-menu ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+  
+      li {
+        a {
+          text-decoration: none;
+          color: #333;
+          font-size: 24px;
+          border: 1px solid transparent;
+          padding: 10px 15px;
+          border-radius: 10px;
+          font-family: "Montserrat", sans-serif;
+          transition: border-bottom 0.3s ease, color 0.3s ease;
+
+          &:hover {
+            border-bottom: 2px solid #cb9498;
+            color: #cb9498; /* Make text color change on hover as well */
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
