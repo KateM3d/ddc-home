@@ -1,0 +1,21 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+    padding: 20px 20px;
+    border-top: 1.5px solid #cb9498; 
+  
+  .footer-left {
+    display: flex;
+    gap: 15px; 
+  }
+
+  .footer-left a {
+    color: grey; 
+    font-size: 28px; 
+    transition: color 0.3s; 
+  }
+  .footer-right {
+    align-self: center; 
+  }
+}
