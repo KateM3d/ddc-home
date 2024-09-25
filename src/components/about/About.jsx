@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/logo.jpeg"; // Replace with the path to your image
+import image from "../../assets/logo.jpeg";
 import Button from "../button/Button";
 import "./about.scss";
 

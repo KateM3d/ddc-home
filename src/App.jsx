@@ -3,10 +3,10 @@ import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import About from "./components/about/About";
 import Clients from "./components/clients/Clients";
-import EngagementModels from "./components/engagement/EngagementModels";
 import Expertise from "./components/expertise/Expertise";
 import Feedback from "./components/feedback/Feedback";
 import Footer from "./components/footer/Footer";
+import Form from "./components/form/Form";
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -27,10 +27,10 @@ function App() {
       <About />
       <Expertise />
       <Reasons />
-      <Clients />
-      <EngagementModels />
       <Portfolio />
+      <Clients />
       <Feedback />
+      <Form />
       <Footer />
     </div>
   );

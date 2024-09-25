@@ -1,5 +1,5 @@
 .reasons-container{
-    height: 100vh;
+    height: 80vh;
 }
 
 .reasons-header{
@@ -13,12 +13,11 @@ color: grey;
 
 .reasons-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
   
     .reasons-left {
-      flex: 1;
       padding: 20px;
   
       ul {
@@ -41,7 +40,6 @@ text-align: left;
     }
   
     .reasons-right {
-      flex: 1;
       display: flex;
       justify-content: center;
       align-items: center;

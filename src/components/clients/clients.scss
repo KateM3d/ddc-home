@@ -1,0 +1,34 @@
+.clients-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center; 
+  padding: 20px;
+  margin: 100px;
+}
+
+.clients-header {
+    font-size: 48px;
+    margin-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+    color: grey;
+    text-transform: uppercase;
+  }
+
+.clients-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.client-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+
+  img {
+    max-width: 250px;
+    height: auto;
+  }
+}
