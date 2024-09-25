@@ -6,21 +6,26 @@
     align-items: center;
     text-align: center;
     padding: 20px;
-    background-image: url('../../assets/bg-3.jpg'); /* Adjust the path if needed */
-    background-size: cover; /* Makes the image cover the entire div */
-    background-position: center; /* Centers the image */
-    height: 100vh; /* Adjust the height as needed */
-    width: 100%; /* Full width */
+    background-image: url('../../assets/bg-3.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    width: 100%; 
   
     h1 {
       font-size: 48px;
       margin-bottom: 20px;
+      font-family: "Montserrat", sans-serif;
+      color: grey;
+      text-transform: uppercase;
     }
   
     p {
       font-size: 18px;
       margin-bottom: 40px;
       max-width: 600px;
+      font-family: "Montserrat", sans-serif;
+      color: grey;
     }
   
     .expertise-cards {
@@ -51,12 +56,16 @@
         }
   
         h2 {
-          font-size: 24px;
+          font-size: 28px;
           margin-bottom: 10px;
+          font-family: "Montserrat", sans-serif;
+          color: grey;
         }
   
         p {
           font-size: 16px;
+          font-family: "Montserrat", sans-serif;
+          color: grey;
         }
       }
     }

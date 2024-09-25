@@ -11,7 +11,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentVideo((prevVideo) => (prevVideo + 1) % videos.length);
-    }, 5000); // Switch every 5 seconds
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [videos.length]);

@@ -24,7 +24,6 @@ const Header = () => {
             {menuOptions.map((option, index) => (
               <li key={index}>
                 <Link to={option.href}>{option.label}</Link>{" "}
-                {/* Use Link instead of a */}
               </li>
             ))}
           </ul>

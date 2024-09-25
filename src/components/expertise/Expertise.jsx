@@ -39,6 +39,9 @@ const Expertise = () => {
             <img src={card.img} alt={card.title} />
             <h2>{card.title}</h2>
             <p>{card.description}</p>
+            <p>
+              Learn more <span className="arrow"> →</span>
+            </p>
           </div>
         ))}
       </div>
